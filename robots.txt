@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rdcjed.github.io/homeoffice-gear-finds/sitemap.xml
