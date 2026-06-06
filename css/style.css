@@ -164,6 +164,20 @@ body {
     height: 200%;
     background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
 }
+.post-card-image.has-real-image {
+    background: none;
+    padding: 0;
+}
+.post-card-image.has-real-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.post-card-image.has-real-image::after {
+    display: none;
+}
 .post-card-body {
     padding: 20px;
 }

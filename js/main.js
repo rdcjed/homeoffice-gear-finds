@@ -14,9 +14,21 @@ document.addEventListener('DOMContentLoaded', function() {
         fetch('/homeoffice-gear-finds/articles/articles.json')
             .then(r => r.json())
             .then(articles => {
-                postGrid.innerHTML = articles.map(a => `
+                postGrid.innerHTML = articles.map(a => {
+                    let thumbnail;
+                    if (a.emoji && a.emoji.startsWith('real:')) {
+                        // Real product image
+                        const imgUrl = a.image || '';
+                        thumbnail = `<img src="${imgUrl}" alt="${a.title}" loading="lazy">`;
+                    } else {
+                        // Emoji fallback
+                        thumbnail = a.emoji || '📦';
+                    }
+                    return `
                     <article class="post-card">
-                        <div class="post-card-image">${a.emoji}</div>
+                        <div class="post-card-image${a.emoji && a.emoji.startsWith('real:') ? ' has-real-image' : ''}">
+                            ${thumbnail}
+                        </div>
                         <div class="post-card-body">
                             <span class="post-card-category">${a.category}</span>
                             <h3><a href="/homeoffice-gear-finds/${a.url}">${a.title}</a></h3>
@@ -27,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                         </div>
                     </article>
-                `).join('');
+                `}).join('');
             });
     }
 });
