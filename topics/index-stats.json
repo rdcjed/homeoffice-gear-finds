@@ -4,7 +4,12 @@
       "date": "2026-06-07",
       "status": "Unknown status",
       "articles": 33
+    },
+    {
+      "date": "2026-06-14",
+      "status": "Unknown status",
+      "articles": 37
     }
   ],
-  "total_articles": 33
+  "total_articles": 37
 }
