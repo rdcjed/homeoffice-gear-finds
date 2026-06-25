@@ -24,7 +24,12 @@
       "date": "2026-06-23",
       "status": "Unknown status",
       "articles": 43
+    },
+    {
+      "date": "2026-06-23",
+      "status": "Unknown status",
+      "articles": 45
     }
   ],
-  "total_articles": 43
+  "total_articles": 45
 }

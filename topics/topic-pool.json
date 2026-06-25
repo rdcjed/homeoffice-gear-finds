@@ -77,12 +77,12 @@
   {
     "kw": "best budget external SSD for work",
     "prod": "Samsung T7, SanDisk Extreme",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget USB flash drive for files",
     "prod": "SanDisk Ultra Fit, Samsung BAR Plus",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget NAS for home office backup",
