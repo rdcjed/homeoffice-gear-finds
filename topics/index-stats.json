@@ -29,7 +29,17 @@
       "date": "2026-06-23",
       "status": "Unknown status",
       "articles": 45
+    },
+    {
+      "date": "2026-06-26",
+      "status": "Check failed (Google blocked)",
+      "articles": 49
+    },
+    {
+      "date": "2026-06-28",
+      "status": "Check failed (Google blocked)",
+      "articles": 49
     }
   ],
-  "total_articles": 45
+  "total_articles": 49
 }

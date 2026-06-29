@@ -87,22 +87,22 @@
   {
     "kw": "best budget NAS for home office backup",
     "prod": "Synology DS220j, TerraMaster F2-210",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget cloud backup service",
     "prod": "Backblaze, IDrive",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget hard drive enclosure",
     "prod": "Sabrent USB 3.0, ORICO Enclosure",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget WiFi router for home office",
     "prod": "TP-Link Archer AX55, Asus RT-AX1800S",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget WiFi extender for dead zones",
