@@ -107,12 +107,12 @@
   {
     "kw": "best budget WiFi extender for dead zones",
     "prod": "TP-Link RE315, Netgear EX3700",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget mesh WiFi system for remote work",
     "prod": "TP-Link Deco X20, Eero 6",
-    "used": false
+    "used": true
   },
   {
     "kw": "best budget VPN service for workers",
